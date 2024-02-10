@@ -1,5 +1,3 @@
-all :
-	clean install run build
 run:
 	python source/main.py
 
