@@ -1,4 +1,4 @@
-from /usr/lib/python3/dist-packages/setuptools import setup,find_packages
+from setuptools import setup,find_packages
 
 setup(
     name="myprojectname",
