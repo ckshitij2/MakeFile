@@ -6,7 +6,8 @@ install: requirements.txt
 	$(PIP) install -r requirements.txt
 
 build: setup.py
-	python setup.py build bdist_wheel
+	/usr/lib/python3.9 setup.py build bdist_wheel
+
 
 clean:
 	rm -rf build
