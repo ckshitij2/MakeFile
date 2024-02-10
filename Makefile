@@ -8,7 +8,7 @@ build: setup.py
 	python setup.py build bdist_wheel
 
 clean:
-	rd /s /q build
-	rd /s /q dist
-	rd /s /q myprojectname.egg-info
+	rm -rf build
+	rm -rf dist
+	rm -rf myprojectname.egg-info
 
